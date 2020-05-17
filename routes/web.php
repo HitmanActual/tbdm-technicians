@@ -20,5 +20,4 @@ $router->group(['prefix' => 'v1', 'namespace' => 'Api\v1'], function() use($rout
     $router->put('technicians/{technician}','TechnicianController@update');
     $router->patch('technicians/{technician}','TechnicianController@update');
     $router->delete('technicians/{technician}','TechnicianController@destroy');
-    $router->delete('technicians/{technician}','TechnicianController@destroy');
 });
